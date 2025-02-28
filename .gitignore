@@ -1,3 +1,4 @@
 .dev
 *cache*
 /.vscode
+*.sqlite3
