@@ -1,0 +1,12 @@
+services:
+  django:
+    build: ./
+    container_name: django
+
+    command: /usr/src/app/entrypoint.sh
+
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 8000:8000
+    
